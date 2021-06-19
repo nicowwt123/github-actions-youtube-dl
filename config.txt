@@ -1,6 +1,6 @@
 --batch-file playlist.txt
 -f 'bestvideo[height<=360]+bestaudio/best[height<=720]' 
---output downloads
+--output downloads/%(title)s_%(id)s.%(ext)s
 --continue
 
 # --write-description

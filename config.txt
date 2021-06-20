@@ -1,6 +1,6 @@
 --batch-file playlist.txt
--f 'bestvideo[height<=360]+bestaudio[height<=360]/bestvideo[ext=mp4]+bestaudio/best[ext=m4a]' --merge-output-format mp4
---output downloads/%(title)s_%(id)s.%(ext)s
+-f 'bestvideo[height<=360]+bestaudio[height<=360]'
+--output downloads/*
 --continue
 
 # --write-description
